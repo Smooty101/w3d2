@@ -1,41 +1,27 @@
 
-var a = 10;
-var b = 20;
-
-
-
-function addSum (param1,param2) {
-
-    var addSum = (param1 + param2) / 2;
-    console.log(addSum);
-  return addSum;
-    
+function Love (param1,param2) {
+  console.log(param1 + param2);
+ 
 }
-addSum(10,20);
+Love(30,50);
 
-function addSum (param1,param2) {
 
-    var addSum = (param1 - param2) / 2;
-    console.log(addSum);
-  return addSum
-    
+function Yellow (param1,param2) {
+  console.log(param1 - param2);
+ 
 }
-addSum(10,20);
+Love(20,40);
 
-function addSum (param1,param2) {
 
-    var addSum = (param1 * param2) / 2 ;
-    console.log(addSum);
-  return addSum
-    
+function Purple (param1,param2) {
+  console.log(param1 * param2);
+ 
 }
-addSum(10,20);
+Purple(10,50);
 
-function addSum (param1,param2) {
 
-    var addSum = (param1 / param2) / 2;
-    console.log(addSum);
-  return addSum
-    
+function Orange (param1,param2) {
+  console.log(param1 / param2);
+ 
 }
-addSum(10,20);
+Orange(30,50);
